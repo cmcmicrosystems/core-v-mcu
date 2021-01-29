@@ -63,7 +63,7 @@ add_files -norecurse $FPGA_RTL/fpga_private_ram.sv
 add_files -norecurse $FPGA_RTL/fpga_bootrom.sv
 add_files -norecurse $FPGA_RTL/pad_functional_xilinx.sv
 add_files -norecurse $FPGA_RTL/pulp_clock_gating_xilinx.sv
-
+add_files -norecurse $FPGA_RTL/cv32e40p_clock_gating_xilinx.sv
 
 # set pulpissimo as top
 set_property top xilinx_pulpissimo [current_fileset]; #
